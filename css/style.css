@@ -1,0 +1,82 @@
+.cover { /* Plays a body role */
+    background: url('../img/1.jpg') center center;
+    height: 600px;
+}
+
+.cover .nav-bar ul {
+    margin: 12px;
+}
+
+.cover .nav-bar ul li {
+    display: inline;
+}
+.cover .nav-bar h1 {
+    padding: 20px;
+    font-size: xx-large;
+    color: chocolate;
+}
+.btn {
+    float: right;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 30px;
+    padding: 16px 40px;
+    margin: 12px;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #fefefe;
+    outline: none;
+}
+
+.cover .cover-body {
+    padding: 20px;
+    padding-top: 150px;
+    font-size: xx-large;
+    color: #edeae5;
+}
+
+.cover .text-back {
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    border: 0.5px solid;
+    border-radius: 30px;
+    padding: 16px 40px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: #fefefe;
+}
+
+
+/* For responsiveness */
+@media only screen and (max-width: 600px)  {
+    .cover {
+        height: 450px;
+    }
+    .cover .nav-bar h1 {
+        font-size: 15px;
+    }
+
+    .btn {
+    margin-left: 30px;
+    font-size: 9px;
+    padding: 10px 25px;
+    }
+
+    .cover .cover-body {
+        padding: 20px;
+        padding-top: 100px;
+        font-size: larger;
+        color: #edeae5;
+    }
+}
+
